@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Unique symbol</title>
+  </head>
+  <body>
+    <header>
+      <h1>Знайди унікальний символ!</h1>
+    </header>
+    <main>
+      <p>Програма, виконує наступні дії:</p>
+      <ul>
+        <li>
+          приймає на вхід довільний текст і знаходить в кожному слові цього
+          тексту найперший символ, який більше НЕ повторюється в аналізуємому
+          слові;
+        </li>
+        <li>
+          з отриманого набору символів вибрає перший унікальний (тобто той, який
+          більше не зустручається в наборі);
+        </li>
+        <li>повертає результат пошуку.</li>
+      </ul>
+      <input placeholder="Введить текст" name="name" />
+      <p id="text"></p>
+      <p id="log"></p>
+    </main>
+    <footer>
+      <a href="https://github.com/LarisaShatil" target="_blank">Larisa Shatillo <span>© 2023</span></a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
